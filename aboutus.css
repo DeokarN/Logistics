@@ -1,0 +1,147 @@
+.containera{
+    height: 450px;
+    width: 100%;
+    background-image: url(./images/coman.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+   .containera1{
+    height: 450px;
+    width:100%;
+    background: rgb(1, 1, 29);
+    background: rgba(1, 1, 29,0.7);
+}
+.containera1 h1 {
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    font-size: 60px;
+}
+.containera1 p{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    font-size: 20px;
+}
+.empty{
+    
+    width: 100%;
+    height: 50px;
+}
+.team{
+    width: 100%;
+    height: 500px;
+}
+.teamname{
+    width: 100%;
+    height: 60px;
+}
+.teamname h1{
+    padding-top: 15px;
+    font-size: xx-large;
+    text-align: center;
+    color: #001f8d;
+}
+.teamnamea {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team1{
+    width: 25%;
+    height: 400px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 16px 16px 4px rgb(0, 0,0,0.3);
+    border: 1px solid black;
+    
+}
+.team1:hover{
+    transform: translateY(-15px);
+}
+.team1 a{
+    text-decoration: none;
+}
+.team1 img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+    background-image: cover;
+}
+.info{
+    padding: 20px;
+
+}
+.info h1{
+    text-align: center;
+    color: #001f8d;
+    font-size: x-large;
+}
+.info h4{
+    text-align: center;
+    color: #292a2b;
+}
+.info p{
+    text-align: center;
+    padding-top: 10px;
+    color: black;
+}
+@media screen and (max-width:768px) {
+    
+    .team{
+        width: 100%;
+        height: auto;
+        
+    }
+    .teamnamea{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .team1{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1220px) {
+    
+    .team{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-basis: 2;
+    }
+    .teamnamea{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .team1{
+        width: auto;
+        height: auto;
+        object-fit: cover;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    
+    .team1{
+        width: 80%;
+        height: auto;
+        margin-left: 50px;
+    }
+}
+.map{
+    height: 500px;
+    width: 100%;
+}
+.map iframe{
+    width: 100%;
+    height: 400px;
+}
